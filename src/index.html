@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @media (min-width:768px) {
+            footer {
+                flex-direction: row;
+                justify-content: space-between;
+                padding:16px 32px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-b from-black to-emerald-900 flex justify-center content-center">
+    <header class="flex justify-center text-center flex-col">
+        <div class=" p-20 w-screen">
+        <h1 class="font-bold text-white text-3xl">Calculadora IMC</h1>
+        <p class="font-bold text-white text-lg">Cuidar da saúde nunca foi tão importante como nos dias de hoje, calcule já!!.</p>
+        </div>
+        <form class="flex justify-center mt-10 text-center items-center flex-col">
+        <h4 class="font-bold text-3xl mb-9 text-white">Descubra seu IMC</h4>
+        <div class="pt-9 bg-gray-400 rounded-2xl flex items-center flex-col w-sm border border-black shadow-sm">
+            <input type="number" placeholder="Peso(kg) -> Ex : 70kg" id="peso" class="px-5 py-2 border border-white rounded-lg shadow-sm"><br>
+            <input type="number" placeholder="Altura(m) -> Ex:1.70" id="altura" class="px-5 py-2 border border-white rounded-lg shadow-sm"><br><br>
+            <button type="button" id="btnCalcular" class="group p-[4px] rounded-[12px] shadow-[0_1px_3px_rgba(0,0,0,0.5)] active:shadow-[0_0px_1px_rgba(0,0,0,0.5)] active:scalFe-[0.995]"><div class="flex gap-2 items-center font-bold ">Calcular IMC</div></button>
+            <p id="resultado" class="font-bold text-white"></p><br>
+        </div>
+        </form>
+
+        <h4 class="font-bold text-white text-3xl m-9">Classificação</h4>
+        <div class="flex justify-center mt-15 text-center items-center flex-coloverflow-x-auto flex justify-center ">
+        <table class="border-separate table-fixed shadow-sm border border-white">
+  <thead class="bg-gray-800 flex justify-center">
+    <tr>
+      <th scope="col" class="px-25 py-5 text-left font-bold text-white uppercase tracking-wider">Classificação</th>
+    </tr>
+  </thead>
+  <tbody class="bg-white font-bold ">
+    <tr class="text-green-500">
+      <td>+18.5 (Abaixo do Peso)</td>
+    </tr>
+    <tr class="text-green-500">
+        <td>+24.9 (Peso Normal)</td>
+    </tr>
+    <tr>
+        <td class="text-orange-500">+29.9 (Sobrepeso)</td>
+    </tr>
+    <tr>
+        <td class="text-red-600">+34.9 (Obesidade Grau I)</td>
+    </tr>
+    <tr>
+        <td class="text-red-600">+39.9 (Obesidade Grau II)</td>
+    </tr>
+    <tr>
+        <td class="text-red-600">40.00+ (Obesidade Grau III)</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+        <footer class="w-full mt-10 border-t border-white">
+            <div class="max-w-4x1 mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-center ">
+                <p class="text-sm text-white/80">© 2026. Caleb Lira . Todos os direitos reservados.</p>
+                <p class="text-sm text-white/80">Desenvolvido por <a href="https://github.com/calebsv" class="underline">Caleb lira</a></p>
+            </div>
+        </footer>
+    </header>
+    <script src="script.js"></script>
+</body>
+</html>
