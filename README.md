@@ -1,5 +1,5 @@
 <h1 align="left">Calculadora IMC🧮</h1>
-<p>Olá, é com imenso prazer que apresento um miniprojejto que desenvolvi totalmente em prol da sua saúde e bem-estar. Aproveite e desfrute da <strong>Calculadora IMC</strong> clicando nesse link
+<p>Olá, é com imenso prazer que apresento um miniprojejto que desenvolvi totalmente em prol da sua saúde e bem-estar. Aproveite  a <strong>Calculadora IMC</strong> clicando nesse link
 <br><a href="https://imc-calculadora-js.netlify.app/">Clique Aqui</a>. </p>
 
 ###
