@@ -7,7 +7,7 @@
 <h2 align="left">Características</h2>
 <p><strong>Design moderno</strong>: Foi revestido com cores discretas.</p>
 <p><strong>Lógica</strong>:Cálculos funcionado corretamente de acordo com os dados que vão ser inseridos.</p>
-<p><strong>Tabela</strong>: Uma tabela está presente logo abaixo do campo de texto com a função de ser analisada de acordo com o resultado obtido.</p>
+<p><strong>Tabela</strong>: Uma tabela está presente logo abaixo do campo de texto com a função de ser consultada de acordo com o resultado obtido.</p>
 
 ###
 
