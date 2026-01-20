@@ -11,7 +11,7 @@
 
 ###
 
-<h2 align="left">Tecnologias Utilizadas</h2>
+<h2 align="left">Ferramentas Utilizadas</h2>
 <p><strong>HTML</strong>: Para a estrutura da página.</p>
 <p><strong>JavaScript</strong>: Para a realização dos cálculos a partir dos dados inseridos.</p>
 <p><strong>Tailwind Css</strong>: Para o design moderno e responsivo.</p>
